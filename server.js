@@ -31,7 +31,8 @@ app.use(
   cors({
     origin: [
       "http://localhost:5173",
-      "https://lowloom-frontend.onrender.com"
+      "https://lowloom-frontend.onrender.com",
+      "https://lowloom-backend-1.onrender.com"
     ],
     methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true
